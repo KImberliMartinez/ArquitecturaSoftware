@@ -1,0 +1,38 @@
+{
+    "servidores": [
+        {
+            "nombre": "GMAIL",
+            "cuentas": [
+                {"direccionCorreo": "cuenta1@gmail.com"},
+                {"direccionCorreo": "cuenta2@gmail.com"}
+            ]
+        },
+        {
+            "nombre": "Hotmail",
+            "cuentas": [
+                {"direccionCorreo": "cuenta1@hotmail.com"},
+                {"direccionCorreo": "cuenta2@hotmail.com"}
+            ]
+        },
+        {
+            "nombre": "Yahoo",
+            "cuentas": [
+                {"direccionCorreo": "cuenta1@yahoo.com"},
+                {"direccionCorreo": "cuenta2@yahoo.com"}
+            ]
+        }
+    ],
+    "protocolos": [
+        {"nombre": "SMTP", "descripcion": "Simple Mail Transfer Protocol"},
+        {"nombre": "IMAP", "descripcion": "Internet Message Access Protocol"},
+        {"nombre": "POP3", "descripcion": "Post Office Protocol 3"}
+    ],
+    "cuentas": [
+        {"direccionCorreo": "cuenta1@gmail.com"},
+        {"direccionCorreo": "cuenta2@gmail.com"},
+        {"direccionCorreo": "cuenta1@hotmail.com"},
+        {"direccionCorreo": "cuenta2@hotmail.com"},
+        {"direccionCorreo": "cuenta1@yahoo.com"},
+        {"direccionCorreo": "cuenta@yahoo.com"}
+     ]
+}
